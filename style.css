@@ -1,0 +1,28 @@
+/* Mobile */
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    position: relative;
+    max-height: 40vh;
+    margin-top: 200px;
+    width: 100vw;
+}
+
+.footer-content {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -3rem;
+    bottom: 0;
+}
